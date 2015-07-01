@@ -1,0 +1,20 @@
+# Site settings
+title: Gaifest
+description: ''
+baseurl: ''
+url: https://gaifest.github.io
+timezone: Europe/Vienna
+
+# Build settings
+markdown: kramdown
+
+# Plugins
+plugins: []
+
+# Exclusions
+exclude:
+  - .gitignore
+  - ReadMe.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
