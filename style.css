@@ -60,11 +60,15 @@ img {
   font-size: 2em;
 }
 
+.site-poster,
 .container {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  padding: 2em;
+}
+
+.container {
+   padding: 2em;
 }
 
 .site-content {
