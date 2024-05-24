@@ -17,7 +17,7 @@ body {
 .site-header .title h1 {
   color: yellow;
   font-size: 4em;
-  margin-left: 0.5em;
+  margin: 0 0 0 0.5em;
 }
 
 img {
