@@ -1,4 +1,4 @@
-owhtml {
+html {
   font-family: Helvetica, sans-serif;
 }
 
@@ -15,8 +15,8 @@ body {
 }
 
 .site-header .title h1 {
-  color: yellow;
-  font-size: 4em;
+  color: white;
+  font-size: 2em;
   margin: 0 0 0 0.5em;
 }
 
