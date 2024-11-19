@@ -1,20 +1,28 @@
 # Site settings
-title: Gaifest
-description: ''
+title: Freiwillige Feuerwehr St. Gertraudi
+description: >
+  Willkommen auf der offiziellen Website der Freiwilligen Feuerwehr St. Gertraudi!
 baseurl: ''
-url: https://gaifest.github.io
-timezone: Europe/Vienna
+url: https://ffgai.info
 
 # Build settings
 markdown: kramdown
-
-# Plugins
-plugins: []
+sass:
+  style: :compressed
 
 # Exclusions
-exclude:
-  - .gitignore
-  - ReadMe.md
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
+exclude: [
+  '.gitignore',
+  'ReadMe.md',
+  'CNAME',
+  'Gemfile',
+  'Gemfile.lock',
+  'node_modules',
+  'package.json'
+]
+
+# Collections
+collections:
+  events:
+    output: true
+    permalink: /events/:path.html
