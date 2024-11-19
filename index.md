@@ -1,36 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>
-      Freiwillige Feuerwehr St. Gertraudi
-    </title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <a class="title" href="index.html"><img alt="Feuerwehr-Logo" src="ffgailogo.png" class="logo">
-        <h1>
-          Freiwillige Feuerwehr St. Gertraudi
-        </h1></a>
-        <nav class="menu">
-          <ul>
-            <li>
-              <a href="galerie.html">Galerie</a>
-            </li>
-            <li>
-              <a href="impressum.html">Impressum</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section class="site-content">
-      <section class="poster">
-        <img alt="Festplakat" src="plakat.png">
-      </section>
-      <div class="container">
+---
+layout: page
+title: Freiwillige Feuerwehr St. Gertraudi
+permalink: /
+---
         <h1>
           Traditionelles Gaifest
         </h1>
@@ -66,7 +38,4 @@
         <p>
           Der Reinerlös des Festes wird zur Anschaffung von Ausrüstung, Geräten sowie für die Nachwuchsausbildung verwendet.
         </p>
-      </div>
-    </section>
-  </body>
-</html>
+        
