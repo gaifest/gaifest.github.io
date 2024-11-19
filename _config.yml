@@ -4,6 +4,7 @@ description: >
   Willkommen auf der offiziellen Website der Freiwilligen Feuerwehr St. Gertraudi!
 baseurl: ''
 url: https://ffgai.info
+timezone: Europe/Vienna
 
 # Build settings
 markdown: kramdown
